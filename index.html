@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grace and Grit Foundation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo.text">👭🏻 Grace&Grit</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Home</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Healthcare</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#volunteering" class="nav-link">Volunteering</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            
+            </ul>
+
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section -->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Grace & Grit Foundation</h2>
+                    <h3 class="subtitle"> Empowering Women with Strength and Compassion</h3>
+                    <p class="desciption">We empower women by blending resilience with compassion. Through education, mentorship, and advocacy, we help women overcome barriers, build confidence, and create a brighter future.</p>
+                
+                    <div class="buttons">
+                        <a href="#" id="donate-btn" class="button order-now">Donate Now</a>
+                        <a href="#contact" class="button contact-us">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="hero.png" alt="Hero" class="hero-image">          
+                </div>
+            </div>
+        </section>
+
+        <!-- Donation Form Section -->
+        <section id="donate" class="donation-section">
+    <form class="donation-form">
+
+      <h2>Make a Donation</h2>
+  
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+  
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+  
+      <label for="amount">Donation Amount:</label>
+      <input type="number" id="amount" name="amount" required>
+  
+      <button type="submit">Submit Donation</button>
+    </form>
+  </section>
+
+  
+
+
+
+        <!-- About Section -->
+        <section class ="about-section" id="about">
+            <div class = "section-content">
+                <div class = "about-image-wrapper">
+                    <img src="about-image.jpg" width="2000" alt="About" class="about-details">
+                </div>
+                <div class ="about-details">
+                    <h2 class ="section-title">About Us</h2>
+                    <p class="text">Grace and Grit, we are committed to making a positive impact by addressing social, environmental, and economic challenges through advocacy and support, creating lasting change for communities in need.
+                    </p>
+                    <div class="social-link-list">
+                        <a href="https://www.facebook.com/people/Grace-AndGrit/61574975112606/" class="social-link" target="_blank">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/graceandgrit2025/" class="social-link" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com/yourHandle" class="social-link" target="_blank">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                    </div>
+                </div>      
+            </div>
+        </section>
+
+        <!-- Education section -->
+            <section class="menu-section" id="menu">
+                <h2 class="section-title">Our Work</h2>
+                <div class="section-content">
+                   <ul class="menu-list">
+                        <li class="menu-item">
+                            <img src="literacy.jpg" alt="Literacy Programs" class="menu-image">
+                            <div class="menu-details">
+                                <h3 class="name">Literacy Programs</h3>
+                                <p class="text">Empowering women through foundational reading and writing skills.</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <img src="skill.jpg" alt="Skill Training" class="menu-image">
+                            <div class="menu-details">
+                                <h3 class="name">Skill Training</h3>
+                                <p class="text">Providing vocational training for financial independence.</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <img src="online.jpg" alt="Online Courses" class="menu-image">
+                            <div class="menu-details">
+                                <h3 class="name">Online Courses</h3>
+                                <p class="text">Access to free digital education resources and e-learning modules.</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <img src="mentorship.jpg" alt="Mentorship Programs" class="menu-image">
+                            <div class="menu-details">
+                                <h3 class="name">Mentorship Programs</h3>
+                                <p class="text">Guidance from industry experts to support career growth.</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <img src="scholarship.jpg" alt="Scholarships" class="menu-image">
+                            <div class="menu-details">
+                                <h3 class="name">Scholarships</h3>
+                                <p class="text">Financial aid for women to pursue higher education.</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <img src="community.jpg" alt="Community Support" class="menu-image">
+                            <div class="menu-details">
+                                <h3 class="name">Community Support</h3>
+                                <p class="text">A strong network to uplift and support women's education journeys.</p>
+                            </div>
+                        </li>
+                   </ul>
+                </div>
+            </section>
+
+        <!-- Testimonial section -->
+        <section class="testimonials-section">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
+                                <img src="user-1.jpg" alt="User" class="user-image">
+                                <h3 class="name">Sarah Johnson</h3>
+                                <i class="feedback">"I felt so grateful for this wonderful opportunity to host students across many schools."</i>
+                            </li>                           
+                            <li class="testimonial swiper-slide">
+                                <img src="user-2.jpg" alt="User" class="user-image">
+                                <h3 class="name">Aarav Mehta</h3>
+                                <i class="feedback">"Volunteering with Grace & Grit Foundation has been one of the most fulfilling experiences of my life. Seeing the impact firsthand is incredible!"</i>
+                            </li>                            
+                            <li class="testimonial swiper-slide">
+                                <img src="user-3.jpg" alt="User" class="user-image">
+                                <h3 class="name">Mia Singh</h3>
+                                <i class="feedback">"Taking online classes through Grace & Grit Foundation transformed my learning experience. The support and guidance were exceptional!"</i>
+                            </li>                           
+                            <li class="testimonial swiper-slide">
+                                <img src="user-4.jpg" alt="User" class="user-image">
+                                <h3 class="name">Sophia Williams</h3>
+                                <i class="feedback">"Mentoring students through the foundation’s programs has been a deeply rewarding journey. Their enthusiasm and drive inspire me every day."</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="user-5.jpg" alt="User" class="user-image">
+                                <h3 class="name">Karthik Reddy</h3>
+                                <i class="feedback">"Donating to this cause gave me the satisfaction of knowing I’m supporting education for those who need it the most."</i>
+                            </li> 
+                        </ul>
+
+                        <div class="swiper-slide-button swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Healthcare section -->
+         <section class="gallery-section" id="gallery">
+            <h2 class="section-title">Healthcare & Volunteering</h2>
+            <div class="section-content">
+                <ul class="gallery-list">
+                    <li class="gallery-item">
+                        <img src="health-1.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="health-2.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="health-3.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="health-4.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="health-5.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                    <li class="gallery-item">
+                        <img src="health-6.jpg" alt="Gallery" class="gallery-image">
+                    </li>
+                </ul>
+            </div>
+         </section>
+
+
+
+        <!-- Volunteering Section -->
+<section class="volunteering-section" id="volunteering">
+    <h2 class="section-title">Volunteer with Us</h2>
+    <div class="section-content">
+      <button id="show-events-btn" class="volunteer-button">Interested in Volunteering?</button>
+      
+      <div id="event-list" class="event-list" style="display: none;">
+        <div class="event-card">
+            <h3>Community Health Camp</h3>
+            <p><strong>Date:</strong> April 25, 2025</p>
+            <p><strong>Location:</strong> Bandra, Mumbai</p>
+            <p><strong>Description:</strong> Join our health camp initiative where volunteers help with organizing medical check-ups, guiding attendees, and assisting doctors in providing basic health education.</p>
+            <a href="https://forms.gle/mGsSLQWk2SHTdu2r7" target="_blank" class="join-button">Join Now</a>
+          </div>
+        
+          <div class="event-card">
+            <h3>Literacy Drive for Women</h3>
+            <p><strong>Date:</strong> May 10, 2025</p>
+            <p><strong>Location:</strong> Dadar, Mumbai</p>
+            <p><strong>Description:</strong> Help us teach reading and writing skills to underprivileged women in local communities. Prior teaching experience is welcome but not mandatory.</p>
+            <a href="https://forms.gle/TvN1zchiYE1YFF7dA" target="_blank" class="join-button">Join Now</a>
+          </div>
+        
+          <div class="event-card">
+            <h3>Women's Empowerment Workshop</h3>
+            <p><strong>Date:</strong> June 1, 2025</p>
+            <p><strong>Location:</strong> Andheri, Mumbai</p>
+            <p><strong>Description:</strong> Volunteers will assist in organizing sessions on leadership, digital literacy, and career skills for women. Great opportunity to make a real impact!</p>
+            <a href="https://forms.gle/isNWoZuDqD615mW97" target="_blank" class="join-button">Join Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+        
+
+     <!-- Contact section -->
+        <section class="contact-section" id="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="section-content">
+                <ul class="contact-info-list">
+                    <li class="contact-info">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <p>St Cyril Road, Bandra West, Mumbai 400050</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>graceandgritfoundation@gmail.com</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>0451-2314440 </p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>0451-6021932 </p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Monday - Saturday: 8:00 AM - 6:00 PM</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-regular fa-clock"></i>
+                        <p>Sunday: Closed</p>
+                    </li>
+                    <li class="contact-info">
+                        <i class="fa-solid fa-globe"></i>
+                        <p>www.graceandgritfoundation.com</p>
+                    </li>
+                </ul>
+
+                <form id="contact-form" class="contact-form">
+                    <input type="text" id="contact-name" placeholder="Your name" class="form-input" required>
+                    <input type="email" id="contact-email" placeholder="Your email" class="form-input" required>
+                    <textarea id="contact-message" placeholder="Your message" class="form-input" required></textarea>
+                    <button type="submit" class="submit-button">Submit</button>
+                  </form>
+                  
+            </div>
+        </section>
+
+        <!-- Footer section -->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">© 2025 Grace&Grit Foundation</p>
+                
+                <div class="social-link-list">
+                    <a href="https://www.facebook.com/people/Grace-AndGrit/61574975112606/" class="social-link" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/graceandgrit2025/" class="social-link" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/yourHandle" class="social-link" target="_blank">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                </div>
+
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy Policy</a>
+                    <span class="separator">•</span>
+                    <a href="#" class="policy-link">Refund Policy</a>
+                </p>
+            </div>
+        </footer>
+
+    </main>
+
+    <!-- Botpress Webchat Inject Scripts -->
+    <script src="https://cdn.botpress.cloud/webchat/v2.3/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2025/04/14/03/20250414032611-5MKI34CN.js"></script>
+
+    <!--Linking Swiper script-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>    
+    
+    <!--Linking Swiper script-->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
